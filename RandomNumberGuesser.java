@@ -45,6 +45,7 @@ public class RandomNumberGuesser{
             currentGuess =sc.nextInt();  
             k++;
       }
+      // Limited chances offfered to guess number to 5
       if(k==5)
       {
         System.out.println ("You lose! Try again!");
