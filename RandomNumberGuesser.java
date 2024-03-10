@@ -13,6 +13,7 @@ public class RandomNumberGuesser{
   int score=0;
  System.out.print("Enter no of rounds you want to play: ");
   n=sc.nextInt();
+    // Added for loop to provide multiple rounds
   for(rd=1;rd<=n;rd++){
     System.out.println ("Round: "+rd);
     System.out.print("Enter lowebound:");
