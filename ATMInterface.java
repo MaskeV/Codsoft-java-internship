@@ -52,10 +52,7 @@ public class ATMInterface{
         var.info();
         while(bool)
         {
-        System.out.println("1.Withdraw");
-        System.out.println("2.Deposit");
-        System.out.println("3.Checkbalance");
-        System.out.println("4.Exit");
+        System.out.println("1.Withdraw\n2.Deposit\n3.Checkbalance\n4.Exit");
         System.out.print("Enter your choice: ");
         ch=sc.nextInt();
 
